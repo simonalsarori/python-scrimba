@@ -76,12 +76,12 @@ cars = [911,130,328,535,740,308]
 #print(friends_list)
 #print('replace', csv.replace(';',',').replace(':',',').split(',')) 
 
-#Tuples - faster Lists you can't change it is immutable secret can not use sum method like append remove pop 
+#Tuples - faster Lists you can't change it is immutable and string secret can not use sum method like append remove pop 
 #friends_tuple = ('John','Michael','Terry','Eric','Graham')
 #print(friends_tuple)
 #print(friends_tuple[2])
 
-#Sets - blazingly fast unordered Lists remove duplicate 
+#Sets - blazingly fast unordered Lists remove duplicate     
 #friends_set = {'John','Michael','Terry','Eric','Graham','Eric'}
 #my_friends_set = {'Reg','Loretta','Colin','Eric','Graham'}
 #print(friends_set)

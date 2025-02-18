@@ -1,3 +1,4 @@
+'''
 def greeting(name, age=28, color = 'red'): #default values parameters
     #Greets user with 'name' from 'input box' and 'age' next year, if available, default age is used
     # also includes favorite color
@@ -10,6 +11,7 @@ age = input('Enter your age: ')
 color = input('Enter favorite color: ')
 greeting(name, int(age), color) #positional notation arguments
 # greeting(age=27, name="brian",color="Blue") named notation
+'''
 
 # 1. Add new print statement - on a new line
 #    which says 'We hear you like the color xxx! xxx is a string with color 
@@ -19,4 +21,20 @@ greeting(name, int(age), color) #positional notation arguments
 #  adding 1 to the age
 # 5. Capitalize first letter of the 'name', and rest are small caps 
 # 6. Favorite color should be in lowercase 
+'''
+def value_added_tax(amount):
+    tax = amount * 0.25
+    total_amount = amount * 1.25
+    return tax
 
+price = value_added_tax(100)    
+print(price, type(price))
+'''
+
+def value_added_tax(amount):
+    tax = amount * 0.25
+    total_amount = amount * 1.25
+    return tax   # return amount, tax, total_amount 'tuple' return [amount, tax, total_amount] list  return {amount, tax, total_amount} set
+
+price = value_added_tax(100)    
+print(price, type(price))

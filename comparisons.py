@@ -52,6 +52,8 @@ else:
     print("Shirt is fine!")
     '''
     
+    
+'''   
 mode = input('Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion: ')
 num1 = float(input('Enter first number: '))
 if mode.lower() == 'f':
@@ -69,3 +71,15 @@ else:
         print(f'Answer is: {num1 / num2}')
     else:
         print('Input error!')
+'''
+        
+def num_days(month):
+    days = 31
+    if month in {'apr','jun','sep','nov'}:
+        days = 30
+    elif month == 'feb':
+        days = 28
+    print('number of days in',month,'is',days)
+    
+
+num_days('apr')

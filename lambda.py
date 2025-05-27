@@ -6,7 +6,9 @@
 
 def square(x):
     return x*x
+
 #name = lambda parameter(s): expression
+
 double_mult = lambda x,y: 2*x*y
 print(double_mult(2,3))
 
